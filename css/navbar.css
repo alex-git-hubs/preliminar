@@ -93,7 +93,7 @@
 	display: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 950px) (orientation: portrait) {
 
 	/* menu */
 
