@@ -1,7 +1,3 @@
-@media (orientation:landscape) {
-	width: 80%;
-}
-
 .topheader {
 	position: fixed;
 	box-shadow: 0 4px 5px var(--navbar-shadow-color);
@@ -96,6 +92,11 @@
 .close-menu {
 	display: none;
 }
+
+
+/* @media (orientation:landscape) {
+ width: 80%;
+} */
 
 
 
