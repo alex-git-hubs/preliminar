@@ -1,96 +1,99 @@
-.topheader {
-	position: fixed;
-	box-shadow: 0 4px 5px var(--navbar-shadow-color);
-	background-color: var(--theme-color);
-	left: 0;
-	top: 0;
-	width: 80%;
-	z-index: 100;
-}
+@media (orientation:landscape) {
+	.topheader {
+		position: fixed;
+		box-shadow: 0 4px 5px var(--navbar-shadow-color);
+		background-color: var(--theme-color);
+		left: 0;
+		top: 0;
+		width: 80%;
+		z-index: 100;
+	}
 
-.topnav {
-	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-	max-width: 980px;
-	margin: 0 auto;
+	.topnav {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+		max-width: 980px;
+		margin: 0 auto;
 
-}
+	}
 
-/* logo  */
+	/* logo  */
 
-.logo {
-	display: flex;
-	align-items: center;
-	font-size: 18px;
-	font-weight: 500;
-	color: var(--primary-color);
+	.logo {
+		display: flex;
+		align-items: center;
+		font-size: 18px;
+		font-weight: 500;
+		color: var(--primary-color);
 
-}
+	}
 
-.logo img {
-	border-radius: 50%;
-}
-
-
-/* menu */
-
-.menu {
-	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-}
-
-.menu li {
-	padding: 0 15px;
-
-}
-
-.menu a {
-	color: var(--text-color);
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 50px;
-	text-transform: uppercase;
-	position: relative;
+	.logo img {
+		border-radius: 50%;
+	}
 
 
-}
+	/* menu */
+
+	.menu {
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.menu li {
+		padding: 0 15px;
+
+	}
+
+	.menu a {
+		color: var(--text-color);
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 50px;
+		text-transform: uppercase;
+		position: relative;
 
 
-/* aqui se coloca el estilo de raya*/
-
-.menu a::after {
-	content: "";
-	background-color: var(--secundary-color);
-	position: absolute;
-	left: 0;
-	top: calc(100% + 4px);
-	width: 100%;
-	height: 4px;
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-
-.menu a.selected::after,
-.menu a:hover::after {
-	opacity: 0.8;
-
-}
-
-.menu a:hover {
-	color: var(--primary-color);
-
-}
-
-/*----------------------------------*/
+	}
 
 
-.open-menu,
-.close-menu {
-	display: none;
+	/* aqui se coloca el estilo de raya*/
+
+	.menu a::after {
+		content: "";
+		background-color: var(--secundary-color);
+		position: absolute;
+		left: 0;
+		top: calc(100% + 4px);
+		width: 100%;
+		height: 4px;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+
+	.menu a.selected::after,
+	.menu a:hover::after {
+		opacity: 0.8;
+
+	}
+
+	.menu a:hover {
+		color: var(--primary-color);
+
+	}
+
+	/*----------------------------------*/
+
+
+	.open-menu,
+	.close-menu {
+		display: none;
+	}
+
 }
 
 @media (max-width: 950px) {
