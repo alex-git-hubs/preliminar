@@ -94,9 +94,9 @@
 }
 
 
-@media (orientation:portrait) {
+@media (orientation:landscape) {
 	.topheader {
-		width: 80%;
+		width: 50%;
 
 	}
 }
