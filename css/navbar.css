@@ -94,9 +94,15 @@
 }
 
 
-/* @media (orientation:landscape) {
- width: 80%;
-} */
+@media (orientation:landscape) {
+	.topheader {
+		width: 80%;
+
+	}
+}
+
+
+
 
 
 
