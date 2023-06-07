@@ -26,7 +26,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/img/epsilon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-
+  <!-- slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/CSS/styleswiper.css">
 
 </head>
 
@@ -146,12 +148,40 @@
   <div class="horizontal-padding vertical-padding">
     <section class="skills" id="skills">
       <h2 class="skills-title">promociones</h2>
-      <ul class="skills-list">
+      <!-- <ul class="skills-list">
         <li class="skills-skill">promocion 1</li>
         <li class="skills-skill">promocion 2</li>
         <li class="skills-skill">promocion 3</li>
         <li class="skills-skill">promocion 4</li>
-      </ul>
+      </ul> -->
+
+      <!-- el slider -->
+
+      <!-- Slider main container -->
+      <div class="swiper swiper-hero">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="/img/promociones/promo1.png" alt="imagen1"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo2.png" alt="imagen2"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo3.png" alt="imagen4"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo4.png" alt="imagen5"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo5.png" alt="imagen6"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo6.png" alt="imagen7"></div>
+          <div class="swiper-slide"><img src="/img/promociones/promo7.png" alt="imagen8"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev botones"></div>
+        <div class="swiper-button-next botones"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <!-- el slider -->
+
     </section>
   </div>
   <div class="horizontal-padding vertical-padding">
@@ -218,7 +248,9 @@
       </nav>
     </section>
   </div>
-
+  <!-- slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="/JS/swiper.js"></script>
 </BODY>
 
 </html>
