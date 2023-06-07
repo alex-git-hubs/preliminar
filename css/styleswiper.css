@@ -1,7 +1,7 @@
 .swiper-hero {
   background-color: lightseagreen;
-  margin: 25% auto;
-  width: 50%;
+  margin: 0 auto;
+  width: 100%;
   border-radius: 30px;
   /* max-width: 800px; */
 }
