@@ -16,7 +16,7 @@ body {
   object-fit: fill;
 } */
 
-@media(min-width:1024px) {
+@media(max-width:1024px) {
   .card .front img {
     /* height: 344px; */
     height: 80%;
