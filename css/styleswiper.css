@@ -18,8 +18,8 @@ body {
 
 @media(min-width:1024px) {
   .swiper-hero img {
-    height: 344px;
-
+    /* height: 344px; */
+    height: 80%;
   }
 }
 
