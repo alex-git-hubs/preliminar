@@ -21,6 +21,12 @@ body {
     /* height: 344px; */
     height: 100%;
   }
+
+  .swiper-hero {
+    width: 80%;
+
+  }
+
 }
 
 .swiper-hero .swiper-button-prev,
