@@ -11,6 +11,7 @@ const swiper = new Swiper(".swiper-hero", {
     disableOnInteraction: false,
   },
   autoHeight: true,
+  centeredSlides: true,
 
   // If we need pagination
   pagination: {
