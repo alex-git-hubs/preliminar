@@ -1,6 +1,6 @@
 const swiper = new Swiper(".swiper-hero", {
   // Optional parameters
-  slidesPerView: 4,
+  slidesPerView: "auto",
   spaceBetween: 5,
   slidespergroupauto: false,
   direction: "horizontal",
