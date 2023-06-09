@@ -19,7 +19,7 @@ body {
 @media(min-width:950px) {
   .card .front img {
     /* height: 344px; */
-    height: 50%;
+    height: 100%;
   }
 }
 
